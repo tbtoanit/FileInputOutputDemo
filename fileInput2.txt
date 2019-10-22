@@ -1,0 +1,10 @@
+Một phần mềm quản lý tài chính thanh toán online có quan hệ với ngân hàng để thực hiện thanh toán các giao dịch chuyển tiền.
+Thông tin khách hàng cần được lưu trữ như: Mã KH, tên KH, Level(1,2,3), số dư trong tài khoản.
+Những ngân hàng tương tác với app cần quản lý những thông tin như: Mã, tên, %lai suat khi thuc hien chuyen tien.
+a) Xây dựng các class liên quan cho việc quản lý
+b) Thực hiện xây dựng chức năng thêm Khách hàng và show thông tin toàn bộ khách hàng đang có trong hệ thống.
+c) chúng ta cần tính lãi suất chuyển tiền biết rằng người dùng sẽ nhập vào mã khách hàng(hệ thống cần kiểm tra khách hàng đó có tồn tại chưa) và số tiền cần chuyển.
+* Lưu ý, các điều kiện nên được ràng buộc khi cần thiết, ví dụ, số dư ko đủ trong tài khoản.
+Sử dụng: Interface, Đóng gói, Đa hình, kế thừa
+d) Thực hiện lưu trữ thông tin khách hàng vào file txt với định dạng tùy chọn đối với những khách hàng có level1
+e) In ra thông tin khách hàng trong file txt vừa lưu trữ
